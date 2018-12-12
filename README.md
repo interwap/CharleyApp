@@ -16,15 +16,28 @@ All CharleyApp API endpoints require an access token of some kind, so each time 
 The app and User IDs are both encoded in the token itself (among other things), and we use those IDs to keep track of which data the User has permitted the app to access.
 
 ## Login
-You can use the /authentication to fetch all users data specified in the API request
-
 ------------ | -------------
 Description | You can use the /authentication to fetch all users data specified in the API request
 URL | /authenticate
 Method | POST
 Parameters | email & password
 
-
+```json
+{
+    "success": true,
+    "title": "Request Successful.",
+    "message": "Authentication OK.",
+    "access_token": "CPrKJK1k51b",
+    "email": "user@email.com",
+    "mobile": "1234567890",
+    "firstname": "Jane",
+    "lastname": "Doe",
+    "last_seen": "2018-12-12 21:48:52",
+    "meta": {
+        "title": "Customer Support"
+    }
+}
+```
 
 
 You can use the [editor on GitHub](https://github.com/interwap/charleyapp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
