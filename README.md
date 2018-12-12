@@ -22,6 +22,8 @@ URL | /authenticate
 Method | POST
 Parameters | email & password
 
+
+#### Response
 ```
 {
     "success": true,
