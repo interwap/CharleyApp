@@ -22,7 +22,7 @@ URL | /authenticate
 Method | POST
 Parameters | email & password
 
-```json
+```
 {
     "success": true,
     "title": "Request Successful.",
