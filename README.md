@@ -106,16 +106,35 @@ Request | /articles?access_token=CPrKJK1k51b&category=5vr3JwXVZXY
 {
     "success": true,
     "title": "Request Successful.",
-    "message": "Authentication OK.",
-    "access_token": "CPrKJK1k51b",
-    "email": "user@email.com",
-    "mobile": "1234567890",
-    "firstname": "Jane",
-    "lastname": "Doe",
-    "last_seen": "2018-12-12 21:48:52",
-    "meta": {
-        "title": "Customer Support"
-    }
+    "message": "Articles OK.",
+    "articles": [
+        {
+            "id": "bGlpg0DgwDz",
+            "title": "Which  safety precautions must be taken when performing maintenance on the system",
+            "alias": "which-safety-precautions-must-be-taken-when-performing-maintenance-on-the-system",
+            "category": "q4L0VB7krD5",
+            "attachment": [
+                "attachments/FAQ-total.jpg"
+            ],
+            "details": [
+                "Servicing, Operation and Maintenance logbook must be checked",
+                "Personal protective equipment must be worn when needed ",
+                "Check digital multimeter with clip-on ammeter ",
+                "Check for differential Residual Current Device (RCD) ",
+                "Check wire brush",
+                "Check Acid neutralising agent ",
+                "Check clean cloths ",
+                "Check contact grease ",
+                "Check clear and clean water without detergent ",
+                "Check non-abrasive sponges ",
+                "Have a bucket",
+                "Check toolbox "
+            ],
+            "created": "2018-12-11 10:23:51",
+            "updated": "2018-12-11 17:34:30"
+        }
+    ],
+    "last_seen": "2018-12-12 23:08:54"
 }
 ```
 
