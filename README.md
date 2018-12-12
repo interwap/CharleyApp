@@ -123,6 +123,7 @@ Request | /articles?access_token=CPrKJK1k51b&category=5vr3JwXVZXY
 All attachments and media files can be accessed via the host url: [troubleshooting.charleyapp.com/](http://troubleshooting.charleyapp.com/)
 
 Accepted media files and are formats are listed below
+
 ------------ | -------------
 Images | JPG, PNG
 Video | MP4
