@@ -18,10 +18,31 @@ The app and User IDs are both encoded in the token itself (among other things), 
 ## Login
 
 ------------ | -------------
-Description | You can use the /authentication to fetch all users data specified in the API request
+Description | Authenticate user
 URL | /authenticate
 Method | POST
 Parameters | email & password
+
+###### Response
+```
+{
+    "success": true,
+    "title": "Request Successful.",
+    "message": "Authentication OK.",
+    "access_token": "CPrKJK1k51b",
+    "email": "user@email.com",
+    "mobile": "1234567890",
+    "firstname": "Jane",
+    "lastname": "Doe",
+    "last_seen": "2018-12-12 21:48:52",
+    "meta": {
+        "title": "Customer Support"
+    }
+}
+```
+
+###### How to Get an Access Token
+If user is authorized and login is successful, the API will respond with an access token.
 
 
 
