@@ -23,23 +23,7 @@ URL | /authenticate
 Method | POST
 Parameters | email & password
 
-#### Response
-```
-{
-    "success": true,
-    "title": "Request Successful.",
-    "message": "Authentication OK.",
-    "access_token": "CPrKJK1k51b",
-    "email": "user@email.com",
-    "mobile": "1234567890",
-    "firstname": "Jane",
-    "lastname": "Doe",
-    "last_seen": "2018-12-12 21:48:52",
-    "meta": {
-        "title": "Customer Support"
-    }
-}
-```
+
 
 
 You can use the [editor on GitHub](https://github.com/interwap/charleyapp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
