@@ -5,7 +5,7 @@ The CharleyApp API is the primary way for apps to read and write to the CharleyA
 All data transfers conform to HTTP/1.1, and all endpoints require HTTP/HTTPS. We have also enabled the includeSubdomains HSTS directive on charleyapp.com, but this should not adversely affect your CharleyAPP API calls.
 
 ## Host URL
-Almost all requests are passed to the **troubleshooting.charleyapp.com/api** host URL.
+Almost all requests are passed to the **troubleshooting.charleyapp.com/api** host URL. All request content-type are application/x-www-form-urlencoded and response are json.
 
 ## Access Tokens
 Access tokens allow your app to access the CharleyApp API. They typically perform two functions:
@@ -18,6 +18,10 @@ The app and User IDs are both encoded in the token itself (among other things), 
 ## Login
 You can use the /authentication to fetch all users data specified in the API request
 
+Description | You can use the /authentication to fetch all users data specified in the API request
+URL | /authenticate
+Method | POST
+Parameters | email & password
 
 
 
