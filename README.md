@@ -18,6 +18,7 @@ The app and User IDs are both encoded in the token itself (among other things), 
 ## Login
 You can use the /authentication to fetch all users data specified in the API request
 
+------------ | -------------
 Description | You can use the /authentication to fetch all users data specified in the API request
 URL | /authenticate
 Method | POST
