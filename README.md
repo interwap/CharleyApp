@@ -179,7 +179,7 @@ Hint | article parameter is the official article id (string) - e.g bGlpg0DgwDz
 ## Beacon
 
 ------------ | -------------
-Description | Send a beacon the CharleyApp Backend Service. This should be sent in the background whenever and article is opened/created in the activity lifecycle. CharleyApp uses this ping for analytical purposes and app usage tracking.
+Description | Send a beacon to the CharleyApp Backend Service. This should be sent in the background whenever and article is opened/created in the activity lifecycle. CharleyApp uses this ping for analytical purposes and app usage tracking.
 URL | /beacon
 Method | POST
 Parameters | access_token & article
@@ -192,6 +192,25 @@ Hint | article parameter is the official article id (string) - e.g bGlpg0DgwDz
     "title": "Request Successful.",
     "message": "Beacon Successfully.",
     "last_seen": "2018-12-24 22:52:25"
+}
+```
+
+## Feedback
+
+------------ | -------------
+Description | Send user feedbacks to the CharleyApp Backend Service.
+URL | /feedback
+Method | POST
+Parameters | access_token, name_of_station, name_of_dealer, equipment, description, date_of_anomaly, feedback_on_repairs
+Hint | Date Format: d-m-y, all other parameters are of string datatype.
+
+###### Response
+```
+{
+    "success": true,
+    "title": "Request Successful.",
+    "message": "Feedback Sent.",
+    "last_seen": "2018-12-24 22:59:58"
 }
 ```
 
