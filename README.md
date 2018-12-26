@@ -109,13 +109,14 @@ Request | /articles?access_token=CPrKJK1k51b&category=5vr3JwXVZXY
     "message": "Articles OK.",
     "articles": [
         {
-            "id": "bGlpg0DgwDz",
+            "id": "jGlpg0DgwDz",
             "title": "Which  safety precautions must be taken when performing maintenance on the system",
             "alias": "which-safety-precautions-must-be-taken-when-performing-maintenance-on-the-system",
             "category": "q4L0VB7krD5",
             "attachment": [
-                "attachments/FAQ-total.jpg"
+                "attachments/safety-precause.jpg"
             ],
+            "precautions": "<p>&nbsp;</p>\r\n<p><strong><em>Always remember to disconnect the PV array</em></strong></p>\r\n<p>&nbsp;</p>\r\n<p><strong><em> from charge controller when checking the system</em></strong></p>",
             "details": [
                 "Servicing, Operation and Maintenance logbook must be checked",
                 "Personal protective equipment must be worn when needed ",
@@ -131,7 +132,7 @@ Request | /articles?access_token=CPrKJK1k51b&category=5vr3JwXVZXY
                 "Check toolbox "
             ],
             "created": "2018-12-11 10:23:51",
-            "updated": "2018-12-11 17:34:30"
+            "updated": "2018-12-20 16:45:50"
         }
     ],
     "last_seen": "2018-12-12 23:08:54"
